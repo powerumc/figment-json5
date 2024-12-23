@@ -1,6 +1,6 @@
 # Figment JSON5 Provider [![ci.svg]][ci] [![crates.io]][crate] [![docs.rs]][docs]
 
-[Figment](https://docs.rs/figment/latest/figment/) provider for JSON5 format
+[Figment](https://docs.rs/figment/latest/figment/) provider for [JSON5](https://json5.org/) format
 
 [examples/config.json5](./examples/config.json5)
 
@@ -68,7 +68,7 @@ Config {
 This crate provides a [Figment](https://docs.rs/figment/latest/figment/) provider for JSON5 format.
 JSON5 is a superset of JSON that allows comments, trailing commas, and more.
 
-[What is JSON5?]([JSON5](https://json5.org/))
+[What is JSON5?](https://json5.org/)
 > JSON5 is an extension to the popular JSON file format
 > that aims to be easier to write and maintain by hand (e.g. for config files).
 > It is not intended to be used for machine-to-machine communication. (Keep using JSON or other file formats for that.
