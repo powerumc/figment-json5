@@ -1,0 +1,11 @@
+{
+  // Allow comments
+  "name": "powerumc",
+  "age": 0x28, // Allow hexadecimal numbers
+  "description": "This is a \
+test config", // Allow multiline strings
+  "leadingDecimalPoint": .8675309,
+  "andTrailing": 8675309.,
+  "positiveSign": +1,
+  "address": "Seoul", // Allow trailing commas
+}
