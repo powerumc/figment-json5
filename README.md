@@ -8,16 +8,13 @@
 {
   // Allow comments
   "name": "json5",
-  "age": 0x28,
-  // Allow hexadecimal numbers
+  "age": 0x28, // Allow hexadecimal numbers
   "description": "This is a \
-test config",
-  // Allow multiline strings
+test config", // Allow multiline strings
   "leadingDecimalPoint": .8675309,
   "andTrailing": 8675309.,
   "positiveSign": +1,
-  "address": "Seoul",
-  // Allow trailing commas
+  "address": "Seoul", // Allow trailing commas
 }
 ```
 
