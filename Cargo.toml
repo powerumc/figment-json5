@@ -1,6 +1,6 @@
 [package]
 name = "figment-json5"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Junil Um <powerumc@gmail.com>"]
 description = "This crate provides a Figment provider for JSON5 format"
@@ -17,9 +17,9 @@ include = [
 ]
 
 [dependencies]
-figment = {version = "0", features = ["parse-value"]}
-serde = {version = "1", features = ["derive", "serde_derive"]}
+figment = { version = "0", features = ["parse-value"] }
+serde = { version = "1", features = ["derive", "serde_derive"] }
 json5 = "0"
 
 [dev-dependencies]
-figment = {version = "0.10", features = ["env", "test"]}
+figment = { version = "0.10", features = ["env", "test"] }
